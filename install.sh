@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGETDIR=~/.copilot/skills/
+TARGETDIR=~/.agents/skills/
 mkdir -p $TARGETDIR
 
 for x in `ls skills/`; do
